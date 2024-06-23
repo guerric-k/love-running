@@ -18,7 +18,13 @@ body{
 }
 /*Header*/
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    /*This padding prevents text from sticking to the side of the screen*/
+    padding:0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 h1 {
     font-family: 'oswald', sans-serif;
